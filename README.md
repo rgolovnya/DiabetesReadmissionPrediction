@@ -14,16 +14,6 @@ This project endeavors to aid in achieving the goals set forth by the Hospital R
 - Hospitals: Tying lower readmission rates to higher hospital revenues will foster efficiency from a financial perspective, allowing hospitals to reallocate a larger pool of resources to important expenses such as personal protective equipment
 In short, lower readmission rates lead to better health for patients and better fiscal health for hospitals.
 
-## Process
-
-1. Data Processing
-2. Training Base Machine Learning Algorithms
-3. Evaluating Base Machine Learning Algorithms (AUC / Feature Importance)
-4. Hyperparameter Tuning with GridSearchCV + Other Machine Learning Techniques (Bagging / Stacking)
-5. Evaluating Optimized Machine Learning Algorithms (AUC / Feature Importance)
-
-
-
 ## Requirements
 
 - pandas
@@ -33,6 +23,19 @@ In short, lower readmission rates lead to better health for patients and better 
 - imblearn 
 - sklearn 
 - xgboost
+
+
+## Process
+
+1. Data Processing
+2. Training Base Machine Learning Algorithms
+3. Evaluating Base Machine Learning Algorithms (AUC / Feature Importance)
+4. Hyperparameter Tuning with GridSearchCV + Other Machine Learning Techniques (Bagging / Stacking)
+5. Evaluating Optimized Machine Learning Algorithms (AUC / Feature Importance)
+
+
+## Result 
+
 
 
 
